@@ -1,0 +1,9 @@
+===Using Bash on Windows===
+ 1.Click on Start and at the search prompt type '''“bash”''' or '''“Ubuntu”''' and you will see the shell pop up. You can also pin this to your Start menu,taskbar or desktop if you plan to use it often.
+ 2.Since it’s Ubuntu you will need to use the '''apt-get''' command to install or update. Even though you will have root access, you will still need to type '''sudo''' to run them.
+ 3.Your windows files can be accessed in the Ubuntu shell via '''/mnt/c/Users/windowsusername''' (i.e. acruz2) 
+ 4.To access your Ubuntu home directory via the windows command line, you will need to '''show hidden folders'''.
+ 5.To do this go to '''File Explorer'''  and click '''view > options > click on the arrow >change folder and search options'''. 
+ 6.The '''folder options''' window should appear. Go to '''View> show hidden files,folders and drives'''
+ 7.Your username’s folder appears at '''c:\Users\USERNAME\AppData\Local\Lxss\home\USERNAME'''
+     Note: The username will be the username you use to login to the Ubuntu shell.
