@@ -1,21 +1,14 @@
-# Bash-for-Windows
-Add Bash via Powershell
+This is small and short guide on installing Bash for Windows on Windows 10. 
+There are some requirements before you install Bash for windows. Here they are:
 
-Use PowerShell to enable your device
+Verify you are running Windows 10 Anniversary Edition 64 bit or newer
+  1.Click "Start"
+  2.Go to "Settings"
+  3.Click on "System"
+  4.Click on "About"
+  5.Under the "Windows 10"heading look for "Version".
+  6.Next to "Version" it should say "1607" or "1703". 
+  7.Underneath "Version" is  "OS Build".  The required build is "14393.351" 
+  8.Look for "System type ". The required system type is "64-bit operating system".
+  
 
-Run PowerShell with administrator privileges.
-To enable sideloading, run this command:
-
-PS C:\WINDOWS\system32> reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowAllTrustedApps" /d "1"
-
-OR -
-
-To enable developer mode, run this command:
-
-PS C:\WINDOWS\system32> reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
-
-If you only run the 1st command, it will turn on sideloading but not enable developer mode. You must run both
-
-Once both commands are run, enter the following command
-
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
