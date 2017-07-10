@@ -1,0 +1,15 @@
+1.Once the anniversary edition is confirmed, return to the main menu of Settings.  
+ 2.Click on Update and Security
+ 3.Click on For Developers
+ 4.Under Use developer features, choose Developer mode.
+ 5.A blue message box should appear. Click Yes to Turn on Developer Mode.
+ 6.Bash will start installing. This should take a few minutes. Once it is done, you will need to restart your computer. 
+ 7.When your computer is done rebooting, go to Control Panel
+ 8.Click on Programs
+ 9.Click on Turn Windows Features on or off
+ 10.Make sure the Windows Subsystem for Linux is checked.
+ 11.Click ok
+ 12.This was install more files on your computer. Your computer will prompt you to restart upon completion. 
+ 13.Once the computer is finished rebooting, you will need to open start and do a search for bash.exe and press Enter.
+ 14.On the command prompt, press Y and then Enter to download and install Bash. 
+ 15.It will ask you to create a default UNIX account and password. You can use any username you like.
