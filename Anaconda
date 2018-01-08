@@ -1,4 +1,4 @@
-To show matplotlib plots in Ubuntu bash for Windows
+To install Anaconda within Bash for Windows
 
 Install anaconda ( I installed anaconda for python 2.7)
 https://www.anaconda.com/download/
@@ -19,3 +19,6 @@ If you downloaded this inside of windows you will need to do the following:
            or restart bash for windows
    8. Type: 
            conda --ver
+
+
+source : https://docs.anaconda.com/anaconda/install/linux
