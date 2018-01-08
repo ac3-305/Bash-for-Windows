@@ -17,4 +17,6 @@ Instructions to install matplotlib for Bash for Windows
       You might find matplotlibrc in /home/<yourhomedirectory>/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/matplotlibrc
   
   sources:
-  
+  https://stackoverflow.com/questions/43397162/show-matplotlib-plots-in-ubuntu-windows-subsystem-for-linux
+  https://sourceforge.net/projects/xming/
+  https://docs.anaconda.com/anaconda/install/linux
