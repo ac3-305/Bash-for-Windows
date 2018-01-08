@@ -1,0 +1,20 @@
+Instructions to install matplotlib for Bash for Windows
+  1. Make sure Anaconda is installed
+  2. type:
+          conda install matplotlib
+  3. type:
+          apt-get update
+          apt install libgl1-mesa-glx
+  4. google "xming" and download from sourcefourge.net
+  5. type: 
+         sudo apt-get install x11-apps
+  6. type:
+         export DISPLAY=localhost:0.0 (you can also add to your ~/.bashrc to make it permanent
+         
+  7.type:
+          sudo apt-get install gnome-calculator (to get GTK)
+  8.edit matplotlibrc and change backend :TKAgg
+      You might find matplotlibrc in /home/<yourhomedirectory>/anaconda2/lib/python2.7/site-packages/matplotlib/mpl-data/matplotlibrc
+  
+  sources:
+  
