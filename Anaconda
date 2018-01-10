@@ -3,7 +3,7 @@ To install Anaconda within Bash for Windows
 Install anaconda ( I installed anaconda for python 2.7)
 https://www.anaconda.com/download/
 Bash for windows by default does not come with python. 
-You can install it yourself but installing conda will install python for you as well.
+You can install it yourself but installing Anaconda will install python for you as well.
 If you downloaded this inside of windows you will need to do the following: 
    1. Run bash for windows and go to the folder where you downloaded the Anaconda file.
    2. For me it was /mnt/c/Users/<your user directory>/Downloads
